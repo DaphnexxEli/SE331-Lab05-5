@@ -88,6 +88,7 @@ const router = createRouter({
     history: createWebHistory(process.env.BASE_URL),
     routes,
 });
+//move part (5.4) here
 router.beforeEach(() => {
     NProgress.start();
 });
